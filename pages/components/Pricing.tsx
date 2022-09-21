@@ -21,7 +21,7 @@ export const ListItem = (props: StackProps) => {
     </HStack>
   );
 };
-export const Pricing = () => {
+const Pricing = () => {
   return (
     <Box mx="6">
       <Box
@@ -64,3 +64,4 @@ export const Pricing = () => {
     </Box>
   );
 };
+export default Pricing;

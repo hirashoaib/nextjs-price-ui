@@ -4,25 +4,40 @@ import { RiShieldStarLine } from "react-icons/ri";
 import { BsTagsFill } from "react-icons/bs";
 import { VscDebugRestart } from "react-icons/vsc";
 
-export const Features = () => {
+const Features = () => {
   return (
     <Box maxW="1024px" m="auto" pt="60px" pb="8">
-      <Stack direction={["column","column","row"]} px="12" spacing="5">
+      <Stack direction={["column", "column", "row"]} px="12" spacing="5">
         <HStack spacing="6">
-          <RiShieldStarLine size="48px" color="#A8D0E6"/>
-          <Text fontSize="lg" fontWeight="bold" textAlign="left" color="#374785">
+          <RiShieldStarLine size="48px" color="#A8D0E6" />
+          <Text
+            fontSize="lg"
+            fontWeight="bold"
+            textAlign="left"
+            color="#374785"
+          >
             30 days money back Guarantee
           </Text>
         </HStack>
         <HStack spacing="6">
           <BsTagsFill size="48px" color="#A8D0E6" />
-          <Text fontSize="lg" fontWeight="bold" textAlign="left" color="#374785">
+          <Text
+            fontSize="lg"
+            fontWeight="bold"
+            textAlign="left"
+            color="#374785"
+          >
             30 days money back Guarantee
           </Text>
         </HStack>
         <HStack spacing="6">
           <VscDebugRestart size="48px" color="#A8D0E6" />
-          <Text fontSize="lg" fontWeight="bold" textAlign="left" color="#374785">
+          <Text
+            fontSize="lg"
+            fontWeight="bold"
+            textAlign="left"
+            color="#374785"
+          >
             30 days money back Guarantee
           </Text>
         </HStack>
@@ -30,3 +45,4 @@ export const Features = () => {
     </Box>
   );
 };
+export default Features;
