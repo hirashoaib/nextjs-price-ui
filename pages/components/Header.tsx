@@ -6,8 +6,8 @@ const Header = () => {
     <Box pb="28" as="section">
       <Box
         textAlign={["left", "left", "center"]}
-        color="gray.200"
-        bg="#24305E"
+        color="white"
+        bg="#8AAAE5"
         pt="90px"
         pb="198px"
         px="8"
